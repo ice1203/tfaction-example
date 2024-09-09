@@ -16,7 +16,7 @@ module "aws" {
   s3_bucket_terraform_state_name   = "tmp-hands-on-terraform-state-20240709080311470100000001"
 }
 
-# Attach Policies
+# Attach Policies2
 
 resource "aws_iam_role_policy_attachment" "terraform_apply_admin" {
   role       = module.aws.aws_iam_role_terraform_apply_name
